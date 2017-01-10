@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array  name="measure"
+        >
+        <item>mm</item>
+        <item>cm</item>
+    </string-array>
+</resources>
