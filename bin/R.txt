@@ -84,8 +84,8 @@ int dimen default_title_indicator_text_size 0x7f07000a
 int dimen default_title_indicator_title_padding 0x7f07000b
 int dimen default_title_indicator_top_padding 0x7f07000c
 int drawable about_list_item_bg 0x7f020000
-int drawable alumcal 0x7f020001
-int drawable android 0x7f020002
+int drawable android 0x7f020001
+int drawable app_icon 0x7f020002
 int drawable back_arrow 0x7f020003
 int drawable btn_guide_selector 0x7f020004
 int drawable btn_guide_text_selector 0x7f020005

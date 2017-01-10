@@ -466,8 +466,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class drawable {
         public static final int about_list_item_bg=0x7f020000;
-        public static final int alumcal=0x7f020001;
-        public static final int android=0x7f020002;
+        public static final int android=0x7f020001;
+        public static final int app_icon=0x7f020002;
         public static final int back_arrow=0x7f020003;
         public static final int btn_guide_selector=0x7f020004;
         public static final int btn_guide_text_selector=0x7f020005;

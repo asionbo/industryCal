@@ -18,7 +18,7 @@
             android:drawableLeft="@drawable/img_menu"
             android:drawablePadding="5dp"
             android:padding="5dp"
-            android:text="制耳率计算"
+            android:text="反馈建议"
             android:textColor="#fff"
             android:textSize="22sp" />
     </LinearLayout>

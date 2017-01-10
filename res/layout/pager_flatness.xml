@@ -27,7 +27,9 @@
         android:id="@+id/lv_process"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#fff"
+        android:padding="3dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/about_list_item_bg"
         android:src="@drawable/flatness" />
 
     <LinearLayout
