@@ -65,8 +65,8 @@ public class AboutCalPager extends BasePager{
 		
 		aboutDataList = new ArrayList<AboutListData>();
 		aboutDataList.add(new AboutListData(R.drawable.user_b, "作者：ASIONBO"));//作者
-		aboutDataList.add(new AboutListData(R.drawable.email_b, "联系我：1505851022@qq.com"));//邮箱
-		aboutDataList.add(new AboutListData(R.drawable.github_b, "源码：url"));//github
+		aboutDataList.add(new AboutListData(R.drawable.email_b, "联系我QQ：1505851022"));//QQ
+		aboutDataList.add(new AboutListData(R.drawable.github_b, "源码：https://github.com/asionbo/"));//github
 		aboutDataList.add(new AboutListData(R.drawable.share_b, "分享给朋友们~_~"));//分享
 		
 		tvVersion.setText(getVersionName());//设置程序版本号
@@ -90,7 +90,7 @@ public class AboutCalPager extends BasePager{
 					break;
 				case 2://获取源码
 					Intent intent = new Intent(Intent.ACTION_VIEW,
-							Uri.parse("http://www.baidu.com"));
+							Uri.parse("https://github.com/asionbo/industryCal.git"));
 					mActivity.startActivity(intent);
 					break;
 				case 3://分享
