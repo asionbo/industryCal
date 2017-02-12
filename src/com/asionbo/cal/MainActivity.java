@@ -86,5 +86,18 @@ public class MainActivity extends SlidingFragmentActivity {
 		}
 		return super.onKeyDown(keyCode, event);
 	}
+	
+	/**
+	 * 获取状态栏高度
+	 * @return
+	 */
+	public int getStatusBarHeight() {
+	    int result = -1;
+	    int resourceId = this.getResources().getIdentifier("status_bar_height", "dimen", "android");
+	    if (resourceId > 0) {
+	        result = this.getResources().getDimensionPixelSize(resourceId);
+	    }
+	    return result;
+	} 
 
 }

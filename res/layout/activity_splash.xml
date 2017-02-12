@@ -3,14 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" 
-    android:padding="30dp"
-     android:background="@color/splash_bg_grey" 
+     android:background="@drawable/splash_bg_newyear" 
     android:id="@+id/splash">
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
-        android:src="@drawable/splash_app" />
+        android:src="@drawable/splash_horse_newyear" />
     
 
 </LinearLayout>

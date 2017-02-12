@@ -6,6 +6,7 @@ import java.util.List;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -20,6 +21,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
+import com.asionbo.cal.utils.BitmapUtils;
 import com.asionbo.cal.utils.DensityUtils;
 import com.asionbo.cal.utils.MPrefUtils;
 
@@ -67,12 +69,14 @@ public class GuideActivity extends Activity {
 			}
 		});
 
-		imageIds = new int[] { R.drawable.guide_1, R.drawable.guide_2,
-				R.drawable.guide_3 };
+		imageIds = new int[] { R.drawable.guide1, R.drawable.guide2,
+				R.drawable.guide3 };
 		// 设置引导页背景
 		for (int i = 0; i < imageIds.length; i++) {
 			ImageView image = new ImageView(this);
-			image.setBackgroundResource(imageIds[i]);// 添加背景
+//			image.setBackgroundResource(imageIds[i]);// 添加背景
+			Bitmap bm = BitmapUtils.readBitmap(GuideActivity.this, imageIds[i]);
+			image.setImageBitmap(bm);
 			mImageViewList.add(image);
 		}
 

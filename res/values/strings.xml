@@ -9,5 +9,4 @@
 	<string name="flatness_h_hint"><font size="14">请输入波高值</font></string>
 	<string name="flatness_l_hint"><font size="14">请输入谷距值</font></string>
 	<string name="suggest_hint"><font size="14">您有什么建议或者想要添加的公式，请反馈给我吧？</font></string>
-	<color name="splash_bg_grey">#607d8b</color>
 </resources>
