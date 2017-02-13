@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#03a9f4"
+        android:background="@color/color_grey_500"
         android:gravity="center_vertical"
         android:orientation="horizontal" >
 
@@ -96,7 +96,7 @@
             android:layout_weight="1"
             android:background="@null"
             android:text="清空"
-            android:textColor="#5677FC"
+            android:textColor="@color/color_grey_500"
             android:textSize="22sp" />
 
         <Button
@@ -106,7 +106,7 @@
             android:layout_weight="1"
             android:background="@null"
             android:text="计算"
-            android:textColor="#5677FC"
+            android:textColor="@color/color_grey_500"
             android:textSize="22sp" />
     </LinearLayout>
 

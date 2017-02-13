@@ -24,6 +24,7 @@ import android.widget.RelativeLayout;
 import com.asionbo.cal.utils.BitmapUtils;
 import com.asionbo.cal.utils.DensityUtils;
 import com.asionbo.cal.utils.MPrefUtils;
+import com.asionbo.cal.utils.ScaleImageUtils;
 
 public class GuideActivity extends Activity {
 
@@ -76,7 +77,8 @@ public class GuideActivity extends Activity {
 			ImageView image = new ImageView(this);
 //			image.setBackgroundResource(imageIds[i]);// 添加背景
 			Bitmap bm = BitmapUtils.readBitmap(GuideActivity.this, imageIds[i]);
-			image.setImageBitmap(bm);
+			ScaleImageUtils.scaleImage(GuideActivity.this, image, bm);
+//			image.setImageBitmap(bm);
 			mImageViewList.add(image);
 		}
 

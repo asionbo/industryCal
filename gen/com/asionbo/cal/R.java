@@ -420,6 +420,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int default_underline_indicator_fades=0x7f050004;
     }
     public static final class color {
+        public static final int color_grey_500=0x7f040011;
         public static final int default_circle_indicator_fill_color=0x7f040008;
         public static final int default_circle_indicator_page_color=0x7f040009;
         public static final int default_circle_indicator_stroke_color=0x7f04000a;
@@ -437,8 +438,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int vpi__bright_foreground_holo_light=0x7f040003;
         public static final int vpi__bright_foreground_inverse_holo_dark=0x7f040006;
         public static final int vpi__bright_foreground_inverse_holo_light=0x7f040007;
-        public static final int vpi__dark_theme=0x7f040011;
-        public static final int vpi__light_theme=0x7f040012;
+        public static final int vpi__dark_theme=0x7f040012;
+        public static final int vpi__light_theme=0x7f040013;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -466,42 +467,45 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class drawable {
         public static final int about_list_item_bg=0x7f020000;
-        public static final int android=0x7f020001;
-        public static final int app_icon=0x7f020002;
-        public static final int back_arrow=0x7f020003;
-        public static final int btn_guide_selector=0x7f020004;
-        public static final int btn_guide_text_selector=0x7f020005;
-        public static final int button_red_normal=0x7f020006;
-        public static final int button_red_pressed=0x7f020007;
-        public static final int email_b=0x7f020008;
-        public static final int flatness=0x7f020009;
-        public static final int github_b=0x7f02000a;
-        public static final int guide1=0x7f02000b;
-        public static final int guide2=0x7f02000c;
-        public static final int guide3=0x7f02000d;
-        public static final int guide_1=0x7f02000e;
-        public static final int guide_2=0x7f02000f;
-        public static final int guide_3=0x7f020010;
-        public static final int ic_launcher=0x7f020011;
-        public static final int img_menu=0x7f020012;
-        public static final int left_text_selector=0x7f020013;
-        public static final int news_tab_item_bg_select=0x7f020014;
-        public static final int shape_point_gray=0x7f020015;
-        public static final int shape_point_red=0x7f020016;
-        public static final int share_b=0x7f020017;
-        public static final int splash_app=0x7f020018;
-        public static final int splash_bg_newyear=0x7f020019;
-        public static final int splash_horse_newyear=0x7f02001a;
-        public static final int title_red_bg=0x7f02001b;
-        public static final int user_b=0x7f02001c;
-        public static final int vpi__tab_indicator=0x7f02001d;
-        public static final int vpi__tab_selected_focused_holo=0x7f02001e;
-        public static final int vpi__tab_selected_holo=0x7f02001f;
-        public static final int vpi__tab_selected_pressed_holo=0x7f020020;
-        public static final int vpi__tab_text_color_indicator=0x7f020021;
-        public static final int vpi__tab_unselected_focused_holo=0x7f020022;
-        public static final int vpi__tab_unselected_holo=0x7f020023;
-        public static final int vpi__tab_unselected_pressed_holo=0x7f020024;
+        public static final int app_icon=0x7f020001;
+        public static final int back_arrow=0x7f020002;
+        public static final int btn_guide_selector=0x7f020003;
+        public static final int btn_guide_text_selector=0x7f020004;
+        public static final int button_red_normal=0x7f020005;
+        public static final int button_red_pressed=0x7f020006;
+        public static final int email_b=0x7f020007;
+        public static final int flatness=0x7f020008;
+        public static final int github_b=0x7f020009;
+        public static final int guide1=0x7f02000a;
+        public static final int guide2=0x7f02000b;
+        public static final int guide3=0x7f02000c;
+        public static final int guide_1=0x7f02000d;
+        public static final int guide_2=0x7f02000e;
+        public static final int guide_3=0x7f02000f;
+        public static final int ic_account_box_black_36dp=0x7f020010;
+        public static final int ic_action_back=0x7f020011;
+        public static final int ic_device_hub_black_36dp=0x7f020012;
+        public static final int ic_launcher=0x7f020013;
+        public static final int ic_mail_black_36dp=0x7f020014;
+        public static final int img_menu=0x7f020015;
+        public static final int left_text_selector=0x7f020016;
+        public static final int news_tab_item_bg_select=0x7f020017;
+        public static final int shape_point_gray=0x7f020018;
+        public static final int shape_point_white=0x7f020019;
+        public static final int share_b=0x7f02001a;
+        public static final int splash_app=0x7f02001b;
+        public static final int splash_bg_newyear=0x7f02001c;
+        public static final int splash_horse_newyear=0x7f02001d;
+        public static final int title_red_bg=0x7f02001e;
+        public static final int user_b=0x7f02001f;
+        public static final int vpi__tab_indicator=0x7f020020;
+        public static final int vpi__tab_selected_focused_holo=0x7f020021;
+        public static final int vpi__tab_selected_holo=0x7f020022;
+        public static final int vpi__tab_selected_pressed_holo=0x7f020023;
+        public static final int vpi__tab_text_color_indicator=0x7f020024;
+        public static final int vpi__tab_unselected_focused_holo=0x7f020025;
+        public static final int vpi__tab_unselected_holo=0x7f020026;
+        public static final int vpi__tab_unselected_pressed_holo=0x7f020027;
     }
     public static final class id {
         public static final int action_settings=0x7f09002b;

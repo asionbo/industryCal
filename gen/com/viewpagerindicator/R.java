@@ -65,8 +65,8 @@ public final class R {
 		public static final int vpi__bright_foreground_holo_light = 0x7f040003;
 		public static final int vpi__bright_foreground_inverse_holo_dark = 0x7f040006;
 		public static final int vpi__bright_foreground_inverse_holo_light = 0x7f040007;
-		public static final int vpi__dark_theme = 0x7f040011;
-		public static final int vpi__light_theme = 0x7f040012;
+		public static final int vpi__dark_theme = 0x7f040012;
+		public static final int vpi__light_theme = 0x7f040013;
 	}
 	public static final class dimen {
 		public static final int default_circle_indicator_radius = 0x7f070000;
@@ -84,15 +84,15 @@ public final class R {
 		public static final int default_title_indicator_top_padding = 0x7f07000c;
 	}
 	public static final class drawable {
-		public static final int news_tab_item_bg_select = 0x7f020014;
-		public static final int vpi__tab_indicator = 0x7f02001d;
-		public static final int vpi__tab_selected_focused_holo = 0x7f02001e;
-		public static final int vpi__tab_selected_holo = 0x7f02001f;
-		public static final int vpi__tab_selected_pressed_holo = 0x7f020020;
-		public static final int vpi__tab_text_color_indicator = 0x7f020021;
-		public static final int vpi__tab_unselected_focused_holo = 0x7f020022;
-		public static final int vpi__tab_unselected_holo = 0x7f020023;
-		public static final int vpi__tab_unselected_pressed_holo = 0x7f020024;
+		public static final int news_tab_item_bg_select = 0x7f020017;
+		public static final int vpi__tab_indicator = 0x7f020020;
+		public static final int vpi__tab_selected_focused_holo = 0x7f020021;
+		public static final int vpi__tab_selected_holo = 0x7f020022;
+		public static final int vpi__tab_selected_pressed_holo = 0x7f020023;
+		public static final int vpi__tab_text_color_indicator = 0x7f020024;
+		public static final int vpi__tab_unselected_focused_holo = 0x7f020025;
+		public static final int vpi__tab_unselected_holo = 0x7f020026;
+		public static final int vpi__tab_unselected_pressed_holo = 0x7f020027;
 	}
 	public static final class id {
 		public static final int bottom = 0x7f090004;

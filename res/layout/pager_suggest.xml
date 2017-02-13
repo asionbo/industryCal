@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#03a9f4"
+        android:background="@color/color_grey_500"
         android:gravity="center_vertical"
         android:orientation="horizontal" >
 
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:background="@null"
         android:text="提交"
-        android:textColor="#5677FC"
+        android:textColor="@color/color_grey_500"
         android:textSize="22sp" />
 
 </LinearLayout>

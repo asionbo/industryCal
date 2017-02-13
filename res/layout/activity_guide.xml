@@ -16,12 +16,13 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="75dp"
-        android:background="@drawable/btn_guide_selector"
+        android:background="@null"
+        android:visibility="invisible"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:visibility="invisible"
-        android:text="开始体验"
-        android:textColor="@drawable/btn_guide_text_selector" />
+        android:text="梦想启航"
+        android:textColor="@drawable/btn_guide_text_selector" 
+        android:textSize="22sp"/>
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -41,7 +42,7 @@
             android:id="@+id/view_point_red" 
             android:layout_width="10dp"
             android:layout_height="10dp"
-            android:background="@drawable/shape_point_red"
+            android:background="@drawable/shape_point_white"
             />
     </RelativeLayout>
 

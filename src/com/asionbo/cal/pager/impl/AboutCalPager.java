@@ -64,10 +64,10 @@ public class AboutCalPager extends BasePager{
 		});
 		
 		aboutDataList = new ArrayList<AboutListData>();
-		aboutDataList.add(new AboutListData(R.drawable.user_b, "作者：ASIONBO"));//作者
-		aboutDataList.add(new AboutListData(R.drawable.email_b, "联系我QQ：1505851022"));//QQ
-		aboutDataList.add(new AboutListData(R.drawable.github_b, "源码：https://github.com/asionbo/"));//github
-		aboutDataList.add(new AboutListData(R.drawable.share_b, "分享给朋友们~_~"));//分享
+		aboutDataList.add(new AboutListData(R.drawable.ic_account_box_black_36dp, "作者：ASIONBO"));//作者
+		aboutDataList.add(new AboutListData(R.drawable.ic_mail_black_36dp, "联系我QQ：1505851022"));//QQ
+		aboutDataList.add(new AboutListData(R.drawable.github_b, "源码：点击查看"));//github
+		aboutDataList.add(new AboutListData(R.drawable.ic_device_hub_black_36dp, "分享给朋友们~_~"));//分享
 		
 		tvVersion.setText(getVersionName());//设置程序版本号
 		
@@ -83,10 +83,17 @@ public class AboutCalPager extends BasePager{
 					int position, long id) {
 				switch (position) {
 				case 0://作者详情
-					
+					Intent myGit = new Intent(Intent.ACTION_VIEW,
+							Uri.parse("https://github.com/asionbo/"));
+					mActivity.startActivity(myGit);
 					break;
 				case 1://邮箱联系
-					
+					Intent email=new Intent(Intent.ACTION_SEND); 
+					email.setType("text/plain");
+					email.putExtra(Intent.EXTRA_EMAIL, new String[]{"asionbo@foxmail.com"});
+					email.putExtra(Intent.EXTRA_SUBJECT, "您的想法或建议");
+					email.putExtra(Intent.EXTRA_TEXT, "软件的完善，离不开您的需求、建议、意见等");
+					mActivity.startActivity(Intent.createChooser(email, "Select email application.")); 
 					break;
 				case 2://获取源码
 					Intent intent = new Intent(Intent.ACTION_VIEW,
@@ -94,7 +101,11 @@ public class AboutCalPager extends BasePager{
 					mActivity.startActivity(intent);
 					break;
 				case 3://分享
-					
+					Intent shareIntent = new Intent();  
+					shareIntent.setAction(Intent.ACTION_SEND);  
+					shareIntent.putExtra(Intent.EXTRA_TEXT, "给你分享一个铝加工用的专业计算器");//注意：这里只是分享文本内容  
+					shareIntent.setType("text/plain");  
+			        mActivity.startActivity(shareIntent);
 					break;
 				default:
 					break;
