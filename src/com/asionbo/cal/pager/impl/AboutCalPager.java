@@ -93,7 +93,7 @@ public class AboutCalPager extends BasePager{
 					email.putExtra(Intent.EXTRA_EMAIL, new String[]{"asionbo@foxmail.com"});
 					email.putExtra(Intent.EXTRA_SUBJECT, "您的想法或建议");
 					email.putExtra(Intent.EXTRA_TEXT, "软件的完善，离不开您的需求、建议、意见等");
-					mActivity.startActivity(Intent.createChooser(email, "Select email application.")); 
+					mActivity.startActivity(Intent.createChooser(email, "请选择邮箱程序")); 
 					break;
 				case 2://获取源码
 					Intent intent = new Intent(Intent.ACTION_VIEW,

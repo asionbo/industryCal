@@ -30,7 +30,7 @@ public class ContentFragment extends BaseFragment {
 	@Override
 	public View initView() {
 
-		View view = View.inflate(mActivity, R.layout.content_fragment, null);
+		View view = View.inflate(mActivity, R.layout.content_fragment, null);//此处应该是抽取出来的共性布局base_pager
 		flContent = (FrameLayout) view.findViewById(R.id.fl_content);
 		return view;
 	}
